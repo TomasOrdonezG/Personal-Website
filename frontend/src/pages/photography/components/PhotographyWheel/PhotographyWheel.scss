@@ -1,0 +1,23 @@
+.horizontal-scroll-section {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  cursor: grab;
+
+  // * Hide scrollbar
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollable {
+    display: inline-block;
+    img {
+      height: 80vh;
+      margin: 6px 12px 0px 0px;
+      &.last-image {
+        margin: 6px 0px 0px 0px;
+      }
+    }
+  }
+}

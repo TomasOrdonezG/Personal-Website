@@ -1,0 +1,96 @@
+body,
+html {
+  overflow-x: hidden;
+  margin: 1px 28px;
+  font-family: "Crimson Text", serif;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.app {
+  height: 100%;
+}
+.app .main-header {
+  z-index: 100;
+  background-color: white;
+  height: 80px;
+  align-items: center;
+}
+.app .main-header .main-nav {
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.app .main-header .main-nav a {
+  text-decoration: none;
+}
+.app .main-header .main-nav a h1 {
+  font-weight: 400;
+  font-size: 28px;
+  color: rgb(27, 27, 27);
+}
+.app .main-header .main-nav ul {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.app .main-header .main-nav ul li {
+  display: flex;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.app .main-header .main-nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.app .main-header .main-nav ul li a.active {
+  color: black;
+}
+.app .main-header .main-nav ul li a:hover {
+  color: black;
+}
+.app .main-footer {
+  background-color: white;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  color: gray;
+}
+.app .main-footer p:hover {
+  cursor: default;
+}
+.app .main-footer a {
+  color: gray;
+  text-decoration: none;
+}
+.app .main-footer a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .app .main-header {
+    justify-content: center;
+    align-items: center;
+    width: 140%;
+  }
+  .app .main-header .main-nav a h1 {
+    width: 200%;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .app .main-header ul {
+    width: 0px;
+  }
+}/*# sourceMappingURL=App.css.map */

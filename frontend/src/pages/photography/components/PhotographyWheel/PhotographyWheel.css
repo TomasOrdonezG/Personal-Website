@@ -1,0 +1,21 @@
+.horizontal-scroll-section {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  cursor: grab;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.horizontal-scroll-section::-webkit-scrollbar {
+  display: none;
+}
+.horizontal-scroll-section .scrollable {
+  display: inline-block;
+}
+.horizontal-scroll-section .scrollable img {
+  height: 80vh;
+  margin: 6px 12px 0px 0px;
+}
+.horizontal-scroll-section .scrollable img.last-image {
+  margin: 6px 0px 0px 0px;
+}/*# sourceMappingURL=PhotographyWheel.css.map */

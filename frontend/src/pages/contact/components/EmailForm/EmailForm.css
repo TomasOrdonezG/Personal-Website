@@ -1,0 +1,65 @@
+.email-form-page {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.email-form-page img {
+  height: 85vh;
+}
+.email-form-page .email-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.email-form-page .email-form table {
+  border-collapse: collapse;
+}
+.email-form-page .email-form table td {
+  cursor: text;
+  height: 40px;
+  margin: 0;
+  border: 1px solid rgb(158, 158, 158);
+}
+.email-form-page .email-form table td input,
+.email-form-page .email-form table td textarea {
+  top: 0;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+}
+.email-form-page .email-form table td input:focus,
+.email-form-page .email-form table td textarea:focus {
+  outline: none;
+}
+.email-form-page .email-form table td textarea {
+  margin-top: 6px;
+  height: 200px;
+  width: 25vw;
+}
+.email-form-page .email-form .notification {
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  right: 10px;
+  bottom: 10px;
+}
+.email-form-page .email-form button {
+  cursor: pointer;
+  padding: 0;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 0;
+  color: gray;
+  border: 1px solid rgb(158, 158, 158);
+  width: 110px;
+  height: 30px;
+  transition: 0.2s ease-in;
+}
+.email-form-page .email-form button:hover {
+  transition: 0.2s ease-in;
+  color: white;
+  background-color: rgb(158, 158, 158);
+}/*# sourceMappingURL=EmailForm.css.map */

@@ -1,0 +1,59 @@
+.about-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  font-family: "Mulish", sans-serif;
+}
+.about-page .about-text-container {
+  margin: 0px 50px;
+  width: 50%;
+}
+.about-page .about-text-container a {
+  color: darksalmon;
+  text-decoration: none;
+}
+.about-page .about-skills-container {
+  width: 50%;
+  height: 50%;
+  margin: 0px 50px;
+}
+.about-page .about-skills-container .skills {
+  height: 99%;
+  width: 99%;
+}
+.about-page .about-skills-container .skills img {
+  margin: 10px;
+  width: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .about-page {
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .about-page .about-text-container {
+    width: 100%;
+    font-size: 15px;
+  }
+  .about-page .about-skills-container {
+    width: 95%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .about-page .about-skills-container h2 {
+    text-align: center;
+  }
+  .about-page .about-skills-container .skills {
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-page .about-skills-container .skills img {
+    width: 15vw;
+    margin: 4.5px;
+  }
+}/*# sourceMappingURL=About.css.map */
